@@ -31,4 +31,20 @@ const tweets = {
     img: "ady.jpg",
     url: "https://twitter.com/mABxYpubO4HVZCP/status/1553758872720265218",
   },
+  fuka: {
+    img: "fuka.jpg",
+    url: "https://twitter.com/fuu_qk_YouTube/status/1553760013294141442",
+  },
+  klee: {
+    img: "klee.jpg",
+    url: "https://twitter.com/klee34293156/status/1553836744076042240",
+  },
+  obtam: {
+    img: "obtam.jpg",
+    url: "https://twitter.com/osihaidai870/status/1553769294110261253",
+  },
+  kentaro: {
+    img: "kentaro.jpg",
+    url: "https://twitter.com/plusbox1112/status/1553758926511824898",
+  },
 };

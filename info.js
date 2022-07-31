@@ -47,4 +47,8 @@ const tweets = {
     img: "kentaro.jpg",
     url: "https://twitter.com/plusbox1112/status/1553758926511824898",
   },
+  kenmaru: {
+    img: "kenmaru.jpg",
+    url: "https://twitter.com/yamaken_0802/status/1553875460995825664",
+  },
 };

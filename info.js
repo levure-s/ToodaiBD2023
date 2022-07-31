@@ -37,7 +37,7 @@ const tweets = {
   },
   klee: {
     img: "klee.jpg",
-    url: "https://twitter.com/klee34293156/status/1553836744076042240",
+    url: "https://twitter.com/klee34293156/status/1553757685195354113",
   },
   obtam: {
     img: "obtam.jpg",

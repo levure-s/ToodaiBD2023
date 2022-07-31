@@ -44,6 +44,10 @@ img {
   justify-content: space-between;
   padding: 2em;
 }
+#msg-list::after {
+  content: "";
+  width: 32%;
+}
 #msg-list li {
   max-width: 450px;
   width: 32%;

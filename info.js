@@ -1,8 +1,8 @@
 const tweets = {
-  // ukyo: {
-  //   img: "bdms9.png",
-  //   url: "https://twitter.com/OuSkNySo_1116/status/1421485825913548800",
-  // },
+  ukyo: {
+    img: "ukyo.jpg",
+    url: "https://twitter.com/OuSkNySo_1116/status/1553841651713335296",
+  },
   tacchan: {
     img: "tacchan.jpg",
     url: "https://twitter.com/Uekid1/status/1553760874652770305",

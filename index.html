@@ -1,0 +1,66 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="灯橙あかさんのお誕生日をお祝いする素敵なツイートを集めました。"
+    />
+    <title>【非公式】灯橙あか生誕祭2022</title>
+    <meta property="og:url" content="https://levure-s.github.io/TheLabeling/" />
+    <meta property="og:title" content="【非公式】灯橙あか生誕祭2022" />
+    <meta property="og:type" content="article" />
+    <meta
+      property="og:description"
+      content="灯橙あかさんのお誕生日をお祝いする素敵なツイートを集めました。"
+    />
+    <meta
+      property="og:image"
+      content="https://levure-s.github.io/TheLabeling/img/FQyL3s0aIAkx7yf.jpg"
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@8J6pxh2o0XB5lN9" />
+    <meta property="og:locale" content="ja_JP" />
+    <link rel="stylesheet" href="./css/doctor.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- <div class = "star">
+            <a href="https://twitter.com/toodai_Aka81/status/1421821563666526219">
+                <img src="">
+            </a>
+        </div> -->
+
+    <div class="title">
+      <h1>あかちゃん爆誕2022</h1>
+      <h2>
+        <span class="brake1"> 灯橙あかちゃん </span>
+        <span class="brake2">生まれてきてくれて</span>
+        ありがとう
+      </h2>
+    </div>
+
+    <div class="msg">
+      <ul id="msg-list"></ul>
+    </div>
+
+    <script src="./info.js"></script>
+    <script>
+      var text = "";
+      for (key in tweets) {
+        let text1 =
+          '<li><a href="' +
+          tweets[key].url +
+          '" target="_blank rel=”noopener”">';
+        let text2 = '<img src="./img/' + tweets[key].img + '">';
+        let text3 = "</a></li>";
+        text = text + text1 + text2 + text3;
+      }
+      $(window).load(function () {
+        $("#msg-list").html(text);
+      });
+    </script>
+  </body>
+</html>

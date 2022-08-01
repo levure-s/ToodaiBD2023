@@ -67,4 +67,8 @@ const tweets = {
     img: "6stu.jpg",
     url: "https://twitter.com/6studio_dtm/status/1553797220864249856",
   },
+  ytkbt: {
+    img: "ytkbt.jpg",
+    url: "https://twitter.com/ytkbt/status/1553902034952237056",
+  },
 };

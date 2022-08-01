@@ -51,4 +51,12 @@ const tweets = {
     img: "kenmaru.jpg",
     url: "https://twitter.com/yamaken_0802/status/1553875460995825664",
   },
+  kensu: {
+    img: "kensu.jpg",
+    url: "https://twitter.com/kenken00924/status/1553889496986693632",
+  },
+  oz: {
+    img: "oz.jpg",
+    url: "https://twitter.com/oz_babys/status/1553874323340857346",
+  },
 };

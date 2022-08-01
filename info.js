@@ -63,4 +63,8 @@ const tweets = {
     img: "takumi.jpg",
     url: "https://twitter.com/tkmiiii_1118/status/1553761102105718785",
   },
+  sixstu: {
+    img: "6stu.jpg",
+    url: "https://twitter.com/6studio_dtm/status/1553797220864249856",
+  },
 };

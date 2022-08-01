@@ -14,7 +14,16 @@ img {
 }
 
 .title {
+  position: relative;
   padding: 3em;
+}
+.title a {
+  display: inline-block;
+  width: 8em;
+  position: absolute;
+  top: 50%;
+  left: calc(50% - 27em);
+  transform: translateY(-50%);
 }
 .title h1 {
   font-size: 2.5em;
@@ -62,6 +71,16 @@ img {
 }
 
 @media (max-width: 900px) {
+  .title {
+    text-align: center;
+  }
+  .title a {
+    position: relative;
+    left: unset;
+    top: unset;
+    transform: unset;
+    padding-bottom: 1em;
+  }
   #msg-list li {
     width: 48%;
   }
@@ -83,6 +102,9 @@ img {
 @media (max-width: 470px) {
   .title {
     padding: 1em 0;
+  }
+  .title a {
+    width: 6em;
   }
   .title h1 {
     font-size: 1.5em;

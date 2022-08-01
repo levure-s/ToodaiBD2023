@@ -87,4 +87,8 @@ const tweets = {
     img: "miyukiL.jpg",
     url: "https://twitter.com/MiYUKi_Akachan/status/1553757733320794112",
   },
+  levu: {
+    img: "levu.jpg",
+    url: "https://twitter.com/8J6pxh2o0XB5lN9/status/1553761472928309248",
+  },
 };

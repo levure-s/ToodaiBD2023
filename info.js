@@ -59,4 +59,8 @@ const tweets = {
     img: "oz.jpg",
     url: "https://twitter.com/oz_babys/status/1553874323340857346",
   },
+  takumi: {
+    img: "takumi.jpg",
+    url: "https://twitter.com/tkmiiii_1118/status/1553761102105718785",
+  },
 };

@@ -11,10 +11,10 @@ const tweets = {
     img: "chiya.jpg",
     url: "https://twitter.com/chiya__k2305/status/1553760797184393216",
   },
-  // hatomo: {
-  //   img: "bdms4.png",
-  //   url: "https://twitter.com/hatomo2192/status/1421486560814403589",
-  // },
+  hatomo: {
+    img: "hatomo.jpg",
+    url: "https://twitter.com/hatomo2192/status/1553900650941284354",
+  },
   ryosuke: {
     img: "ryosuke.jpg",
     url: "https://twitter.com/R_atslh/status/1553757771283451904",

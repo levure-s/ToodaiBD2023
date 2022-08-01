@@ -75,4 +75,8 @@ const tweets = {
     img: "momo.jpg",
     url: "https://twitter.com/moe__021/status/1553766709756334081",
   },
+  ayuka: {
+    img: "ayuka.jpg",
+    url: "https://twitter.com/Ayukababys1/status/1553758113941319680",
+  },
 };

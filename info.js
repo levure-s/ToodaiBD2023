@@ -71,4 +71,8 @@ const tweets = {
     img: "ytkbt.jpg",
     url: "https://twitter.com/ytkbt/status/1553902034952237056",
   },
+  momo: {
+    img: "momo.jpg",
+    url: "https://twitter.com/moe__021/status/1553766709756334081",
+  },
 };

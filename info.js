@@ -79,4 +79,12 @@ const tweets = {
     img: "ayuka.jpg",
     url: "https://twitter.com/Ayukababys1/status/1553758113941319680",
   },
+  miyukiB: {
+    img: "miyukiB.jpg",
+    url: "https://twitter.com/MiYUKi_Akachan/status/1553757733320794112",
+  },
+  miyukiL: {
+    img: "miyukiL.jpg",
+    url: "https://twitter.com/MiYUKi_Akachan/status/1553757733320794112",
+  },
 };

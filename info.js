@@ -91,4 +91,28 @@ const tweets = {
     img: "levu.jpg",
     url: "https://twitter.com/8J6pxh2o0XB5lN9/status/1553761472928309248",
   },
+  ryuuu: {
+    img: "ryuuu.jpg",
+    url: "https://twitter.com/Gin_Weed__Orion/status/1553760327724318721",
+  },
+  koto1: {
+    img: "koto1.jpg",
+    url: "https://twitter.com/Babys_08/status/1554108838567358465",
+  },
+  koto2: {
+    img: "koto2.jpg",
+    url: "https://twitter.com/Babys_08/status/1554112905452597248",
+  },
+  koto3: {
+    img: "koto3.jpg",
+    url: "https://twitter.com/Babys_08/status/1554113286714830848",
+  },
+  koto4: {
+    img: "koto4.jpg",
+    url: "https://twitter.com/Babys_08/status/1554113432412372993",
+  },
+  touno: {
+    img: "touno.jpg",
+    url: "https://twitter.com/touno_karin/status/1554074975497486341",
+  },
 };

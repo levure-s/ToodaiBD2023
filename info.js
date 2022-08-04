@@ -87,10 +87,6 @@ const tweets = {
     img: "miyukiL.jpg",
     url: "https://twitter.com/MiYUKi_Akachan/status/1553757733320794112",
   },
-  levu: {
-    img: "levu.jpg",
-    url: "https://twitter.com/8J6pxh2o0XB5lN9/status/1553761472928309248",
-  },
   ryuuu: {
     img: "ryuuu.jpg",
     url: "https://twitter.com/Gin_Weed__Orion/status/1553760327724318721",
@@ -114,5 +110,13 @@ const tweets = {
   touno: {
     img: "touno.jpg",
     url: "https://twitter.com/touno_karin/status/1554074975497486341",
+  },
+  britain: {
+    img: "britain.jpg",
+    url: "https://twitter.com/Britain07986875/status/1554091181092401153",
+  },
+  levu: {
+    img: "levu.jpg",
+    url: "https://twitter.com/8J6pxh2o0XB5lN9/status/1553761472928309248",
   },
 };

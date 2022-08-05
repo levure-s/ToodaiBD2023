@@ -10,7 +10,8 @@ li {
   list-style: none;
 }
 img {
-  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .title {
@@ -24,6 +25,10 @@ img {
   top: 50%;
   left: calc(50% - 27em);
   transform: translateY(-50%);
+}
+.title a:nth-child(2) {
+  width: 6.4em;
+  left: calc(50% + 19em);
 }
 .title h1 {
   font-size: 2.5em;
@@ -81,6 +86,15 @@ img {
     transform: unset;
     padding-bottom: 1em;
   }
+  .title a:nth-child(2) {
+    left: unset;
+    padding-left: 1em;
+  }
+  .img-contaier {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   #msg-list li {
     width: 48%;
   }
@@ -101,10 +115,15 @@ img {
 }
 @media (max-width: 470px) {
   .title {
+    height: auto;
     padding: 1em 0;
   }
   .title a {
     width: 6em;
+  }
+  .title a:nth-child(2) {
+    height: 6em;
+    padding-left: 0;
   }
   .title h1 {
     font-size: 1.5em;

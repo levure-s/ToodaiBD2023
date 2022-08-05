@@ -115,6 +115,10 @@ const tweets = {
     img: "britain.jpg",
     url: "https://twitter.com/Britain07986875/status/1554091181092401153",
   },
+  raito: {
+    img: "raito.jpg",
+    url: "https://twitter.com/prdoZkHbDAfVZDp/status/1554079442318000129",
+  },
   levu: {
     img: "levu.jpg",
     url: "https://twitter.com/8J6pxh2o0XB5lN9/status/1553761472928309248",

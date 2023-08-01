@@ -47,6 +47,10 @@ const tweets = {
     img: "oz.jpg",
     url: "https://twitter.com/oz_babys/status/1686347563115610113",
   },
+  wakana: {
+    img: "wakana.jpg",
+    url: "https://twitter.com/aka__fan/status/1686280455979687936",
+  },
   levu: {
     img: "levu.jpg",
     url: "https://twitter.com/8J6pxh2o0XB5lN9/status/1686036604450926593",

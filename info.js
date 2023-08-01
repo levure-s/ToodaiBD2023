@@ -1,4 +1,8 @@
 const tweets = {
+  yuna: {
+    img: "yuna.jpg",
+    url: "https://twitter.com/KnwRwi/status/1686278065192927232",
+  },
   haruki: {
     img: "haruki.jpg",
     url: "https://twitter.com/haru4869_Babys/status/1686214739825934336",
@@ -26,6 +30,10 @@ const tweets = {
   koto: {
     img: "koto.jpg",
     url: "https://twitter.com/Babys_08/status/1686210080482705408",
+  },
+  kaname: {
+    img: "kaname.jpg",
+    url: "https://twitter.com/Kaname_030717/status/1686233571831529472",
   },
   levu: {
     img: "levu.jpg",

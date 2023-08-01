@@ -39,6 +39,10 @@ const tweets = {
     img: "kaname.jpg",
     url: "https://twitter.com/Kaname_030717/status/1686233571831529472",
   },
+  touno: {
+    img: "touno.jpg",
+    url: "https://twitter.com/touno_karin/status/1686312292164714496",
+  },
   levu: {
     img: "levu.jpg",
     url: "https://twitter.com/8J6pxh2o0XB5lN9/status/1686036604450926593",

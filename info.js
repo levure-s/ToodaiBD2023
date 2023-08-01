@@ -3,6 +3,10 @@ const tweets = {
     img: "yuna.jpg",
     url: "https://twitter.com/KnwRwi/status/1686278065192927232",
   },
+  kentaro: {
+    img: "kentaro.jpg",
+    url: "https://twitter.com/plusbox1112/status/1686328228506718208",
+  },
   haruki: {
     img: "haruki.jpg",
     url: "https://twitter.com/haru4869_Babys/status/1686214739825934336",

@@ -11,7 +11,7 @@
       property="og:url"
       content="https://levure-s.github.io/ToodaiBD2022/"
     />
-    <meta property="og:title" content="【非公式】灯橙あか生誕祭2022" />
+    <meta property="og:title" content="【非公式】灯橙あか生誕祭2023" />
     <meta property="og:type" content="article" />
     <meta
       property="og:description"
@@ -31,24 +31,15 @@
   <body>
     <div class="title">
       <div class="img-contaier">
-        <a
+        <!-- <a
           href="https://www.instagram.com/p/CgtlEhUvSMI/?utm_source=ig_web_copy_link"
           target="_blank"
           rel="noopener"
         >
           <img src="./img/FZEfJFTagAASh6m.jpg" />
-        </a>
-        <a
-          href="https://www.instagram.com/p/Cg2QRTUP_Qu/?utm_source=ig_web_copy_link"
-          target="_blank"
-          rel="noopener"
-        >
-          <img
-            src="./img/297257948_1412197035939649_3481000898424377381_n.jpg"
-          />
-        </a>
+        </a> -->
       </div>
-      <h1>あかちゃん爆誕2022</h1>
+      <h1>灯橙あか生誕祭2023</h1>
       <h2>
         <span class="brake1"> 灯橙あかちゃん </span>
         <span class="brake2">生まれてきてくれて</span>
@@ -65,12 +56,13 @@
       var text = "";
       for (key in tweets) {
         let text1 =
-          '<li><a href="' +
-          tweets[key].url +
-          '" target="_blank" rel="noopener">';
-        let text2 = '<img src="./img/' + tweets[key].img + '">';
-        let text3 = "</a></li>";
-        text = text + text1 + text2 + text3;
+          '<li><div class="lantern"><div class="head"><div class="handles"></div></div><div class="body">';
+        let text2 =
+          '<a href="' + tweets[key].url + '" target="_blank" rel="noopener">';
+        let text3 = '<img src="./img/' + tweets[key].img + '">';
+        let text4 = "</a>";
+        let text5 = '</div><div class="foot"></div></div></li>';
+        text = text + text1 + text2 + text3 + text4 + text5;
       }
       $(window).load(function () {
         $("#msg-list").html(text);

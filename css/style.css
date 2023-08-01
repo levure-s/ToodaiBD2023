@@ -17,6 +17,7 @@ img {
 .title {
   position: relative;
   padding: 3em;
+  background-color: #e8e3bd;
 }
 .title a {
   display: inline-block;
@@ -47,10 +48,10 @@ img {
 .title h2 {
   font-size: 2em;
   font-family: system-ui;
-  color: #ff1d03;
+  color: #c0554b;
 }
 .msg {
-  background-color: #ff1d03;
+  background-color: #c0554b;
 }
 #msg-list {
   display: flex;
@@ -61,6 +62,7 @@ img {
 #msg-list::after {
   content: "";
   width: 32%;
+  max-width: 450px;
 }
 #msg-list li {
   max-width: 450px;
@@ -68,11 +70,55 @@ img {
   padding-bottom: 1.5em;
 }
 #msg-list li a {
-  display: inline-block;
-  background-color: #fff;
-  border: 10px solid;
-  border-image: linear-gradient(to right bottom, #e0d9b6, #b4983a) 1 / 10px;
-  box-shadow: 0px 0px 20px 10px #706e6e inset;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.562);
+  padding: 1em 0;
+  box-sizing: border-box;
+}
+.lantern .head {
+  position: relative;
+  padding-top: 10em;
+}
+.lantern .head::before {
+  content: "";
+  position: absolute;
+  background-color: #352c29;
+  width: 95%;
+  padding-top: 1em;
+  bottom: -0.5em;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.lantern .head::after {
+  content: "";
+  position: absolute;
+  background-color: #352c29;
+  width: 3em;
+  padding-top: 2em;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.lantern .handles {
+  position: absolute;
+  top: 0;
+  border: solid 1px #352c29;
+  border-radius: 50% / 100% 100% 0 0;
+  width: 100%;
+  height: 100%;
+}
+.lantern .body {
+  box-sizing: border-box;
+  width: 90%;
+  height: calc(100% - 10em);
+  margin: auto;
+  border: solid 1em #352c29;
+  background: url(../img/back.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 @media (max-width: 900px) {

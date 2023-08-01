@@ -11,6 +11,10 @@ const tweets = {
     img: "ryosuke.jpg",
     url: "https://twitter.com/R_atslh/status/1686037411468578816",
   },
+  shi: {
+    img: "shi.jpg",
+    url: "https://twitter.com/xUUHU0rwgUqqlOD/status/1686199495766474753",
+  },
   levu: {
     img: "levu.jpg",
     url: "https://twitter.com/8J6pxh2o0XB5lN9/status/1686036604450926593",

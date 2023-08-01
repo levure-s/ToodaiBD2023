@@ -21,7 +21,7 @@ img {
 }
 .title a {
   display: inline-block;
-  width: 8em;
+  width: 7em;
   position: absolute;
   top: 50%;
   left: calc(50% - 27em);

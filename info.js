@@ -43,6 +43,10 @@ const tweets = {
     img: "touno.jpg",
     url: "https://twitter.com/touno_karin/status/1686312292164714496",
   },
+  oz: {
+    img: "oz.jpg",
+    url: "https://twitter.com/oz_babys/status/1686347563115610113",
+  },
   levu: {
     img: "levu.jpg",
     url: "https://twitter.com/8J6pxh2o0XB5lN9/status/1686036604450926593",

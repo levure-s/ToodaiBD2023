@@ -55,6 +55,10 @@ const tweets = {
     img: "chiya.jpg",
     url: "https://twitter.com/chiya__k2305/status/1686361974119231488",
   },
+  momo: {
+    img: "momo.jpg",
+    url: "https://twitter.com/moe__021/status/1686389661210693632",
+  },
   levu: {
     img: "levu.jpg",
     url: "https://twitter.com/8J6pxh2o0XB5lN9/status/1686036604450926593",
